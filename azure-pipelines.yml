@@ -1,4 +1,10 @@
 #  Copyright © Microsoft Corporation
+- task: AzureCloudPowerShellDeployment@1
+  inputs:
+    EnableAdvancedStorageOptions: false
+    CsPkg: 
+    slotName: 'Production'
+    AllowUpgrade: true
 #
 #  Licensed under the Apache License, Version 2.0 (the "License");
 #  you may not use this file except in compliance with the License.
