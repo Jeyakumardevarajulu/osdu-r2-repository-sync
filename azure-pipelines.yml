@@ -12,6 +12,9 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
+# Note: Pipeline uses the Swellaby Mirror Git Repository extension
+# Get it here: https://marketplace.visualstudio.com/items?itemName=swellaby.mirror-git-repository
+
 # Required Group Variables - `Mirror Variables`
 # ACCESS_TOKEN  (Personal Access Token)
 # INFRASTRUCTURE_REPO
