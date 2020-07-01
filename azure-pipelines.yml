@@ -35,11 +35,6 @@ trigger:
     exclude:
     - /**/*.md
 
-steps:
-- checkout: none
-  clean: true
-  persistCredentials: true
-
 schedules:
   - cron: "*/10 * * * *"
     displayName: Hourly Pull Schedule
